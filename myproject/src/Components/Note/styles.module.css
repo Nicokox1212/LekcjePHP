@@ -1,0 +1,80 @@
+/* styles.module.css */
+.noteContainer {
+  padding: 16px;
+  background-color: #fdf6e3;  /* Lekkie, przyjazne tło */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #eee8d5;  /* Subtelne obramowanie */
+  margin-bottom: 16px;
+}
+
+.noteHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.noteTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #073642;  /* Mocniejszy kolor na tytuł */
+  cursor: pointer;
+}
+
+.noteButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.noteButtonEdit {
+  background-color: #268bd2;  /* Jasny niebieski */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.noteButtonEdit:hover {
+  background-color: #0072b3;  /* Mocniejszy niebieski na hover */
+}
+
+.noteButtonDelete {
+  background-color: #dc322f;  /* Delikatny czerwony */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.noteButtonDelete:hover {
+  background-color: #b22222;  /* Ciemniejszy czerwony na hover */
+}
+
+.noteDescription {
+  margin-top: 16px;
+  color: #586e75;
+}
+
+.noteInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+.noteInput:focus {
+  border-color: #268bd2;
+  box-shadow: 0 0 0 2px rgba(38, 139, 210, 0.4);
+}
+
+/* Styl tytułu "Moje Notatki" */
+.pageTitle {
+  font-size: 3rem;
+  text-align: center;  /* Wyśrodkowanie */
+  color: #073642;
+  font-weight: bold;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
