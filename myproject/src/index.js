@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './Components/Note/styles.module.css';  // Upewnij się, że ścieżka do pliku CSS jest poprawna
+import './Components/Note/styles.module.css';  
 import App from './App';
 
 
