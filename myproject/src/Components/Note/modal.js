@@ -1,4 +1,3 @@
-
 import React from 'react';
 import styles from './styles.module.css';
 
@@ -7,11 +6,12 @@ import styles from './styles.module.css';
 function Modal({ title, description, setTitle, setDescription, onSave, onClose }) {
     return (
       <div className={styles.modalOverlay}>
-        {/* Rozmyte tło */}
-        <div className={styles.modalBackground}></div>
+ 
+        
   
-        {/* Zawartość modalnego okna */}
+  
         <div className={styles.modalContent}>
+          
           <input
             type="text"
             value={title}
