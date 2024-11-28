@@ -46,4 +46,7 @@ function Note({ note, onDelete, onEdit }) {
   );
 }
 
+
+
+
 export default Note;
