@@ -1,5 +1,5 @@
 const Contact = () => (
-    <div>
+    <div className="wysrodkowanie">
       <h1>Kontakt</h1>
       <p>
         {""}

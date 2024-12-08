@@ -1,7 +1,7 @@
 
 .noteContainer {
   padding: 16px;
-  background-color: #fdf6e3;  
+  background: linear-gradient(135deg, #2c5364, #56c1c4, #0f2027);  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   border: 1px solid #eee8d5;  
@@ -19,7 +19,7 @@
 .noteTitle {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #073642; 
+  color: white; 
   cursor: pointer;
 }
 

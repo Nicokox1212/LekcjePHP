@@ -2,10 +2,11 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  background: linear-gradient(135deg, #0f2027, #2c5364, #56c1c4);
 }
 
 header {
-  background-color: #007bff;
+  background: linear-gradient(135deg, #56c1c4 #0f2027, #2c5364,);
   padding: 10px;
 }
 
@@ -32,7 +33,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #333;
+  background: linear-gradient(135deg, #56c1c4 #0f2027, #2c5364,);
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -73,4 +74,5 @@ main {
   align-items: center; 
   width: 100%; 
   height: 100%; 
+  color: white;
 }
