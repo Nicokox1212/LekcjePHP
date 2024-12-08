@@ -59,8 +59,8 @@ main {
 main {
   flex: 1;
   display: flex;
-  justify-content: center; /* Wyśrodkowanie horyzontalne */
-  align-items: center; /* Wyśrodkowanie wertykalne */
+  justify-content: center; 
+  align-items: center; 
   padding: 20px;
   text-align: center;
 }
@@ -69,8 +69,8 @@ main {
 .wysrodkowanie{
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Wyśrodkowanie wertykalne */
-  align-items: center; /* Wyśrodkowanie horyzontalne */
-  width: 100%; /* Zapewnia pełną szerokość */
-  height: 100%; /* Wypełnia całą przestrzeń main */
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  height: 100%; 
 }

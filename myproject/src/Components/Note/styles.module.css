@@ -127,10 +127,10 @@
 
 
 .notesListContainer {
-  display: flex; /* Ustaw flexbox, aby lista mogła być elastyczna */
-  flex-direction: column; /* Układ w kolumnie */
-  gap: 16px; /* Odstęp między notatkami */
-  width: 100%; /* Zajmuje pełną szerokość rodzica */
-  max-width: 800px; /* Ograniczenie maksymalnej szerokości */
-  margin: 0 auto; /* Wyśrodkowanie listy */
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px;
+  width: 100%; 
+  max-width: 800px;
+  margin: 0 auto; 
 }
