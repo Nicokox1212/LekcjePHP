@@ -6,6 +6,8 @@
   border-radius: 12px;
   border: 1px solid #eee8d5;  
   margin-bottom: 16px;
+  
+  
 }
 
 .noteHeader {
@@ -121,4 +123,14 @@
 .modalCloseButton {
   margin-top: 10px;
   padding: 8px 12px;
+}
+
+
+.notesListContainer {
+  display: flex; /* Ustaw flexbox, aby lista mogła być elastyczna */
+  flex-direction: column; /* Układ w kolumnie */
+  gap: 16px; /* Odstęp między notatkami */
+  width: 100%; /* Zajmuje pełną szerokość rodzica */
+  max-width: 800px; /* Ograniczenie maksymalnej szerokości */
+  margin: 0 auto; /* Wyśrodkowanie listy */
 }
